@@ -6,5 +6,5 @@ MAINTAINER fyk
 #COPY ./myHttpd /
 #COPY ./conf/ /etc
 COPY ./server2 /
-EXPOSE 3333
+EXPOSE 80
 CMD ["/server2"]
